@@ -1,0 +1,81 @@
+// Mixins
+
+@mixin mt-bb() {
+  font-family: "Montserrat", sans-serif;
+  font-weight:900; 
+}
+
+@mixin mt-b() {
+  font-family: "Montserrat", sans-serif;
+  font-weight:700;
+}
+
+@mixin mt-r() {
+  font-family: "Montserrat", sans-serif;
+  font-weight:400;
+}
+
+@mixin mt-l() {
+  font-weight:100;
+}
+
+
+
+
+
+
+
+
+/*********
+background url path
+*********/
+@mixin img-jpg($name){
+  $url:"/images/#{$name}.webp";
+  background: url($url);
+}
+
+@mixin img-png($name){
+  $url:"/images/#{$name}.webp";
+  background: url($url);
+}
+/*********/
+
+@mixin section-bg($name){
+  $url:"/images/#{$name}.png";
+  background: url($url);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+
+
+/*********
+ Transform property
+*********/
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+
+
+@mixin transition-all() {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+@mixin background-cover() {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*********
+ headers
+*********/
+

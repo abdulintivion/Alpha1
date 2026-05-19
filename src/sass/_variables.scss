@@ -1,0 +1,31 @@
+$blue-color: #10235d;
+$black: #000;
+$white: #fff;
+
+$primary-green: #599D21;
+$primary-teal: #179B7E;
+$primary-gradient: linear-gradient(104deg, $primary-green -3.94%, $primary-teal 131.87%);
+
+$primary-dark-green: #3b720d;
+$primary-dark-teal: #005a47;
+$primary-gradient-hover: linear-gradient(104deg, $primary-dark-green -3.94%, $primary-dark-teal 131.87%);
+
+$accent-blue: #23aabd;
+$accent-green: #27B442;
+$success-green: #1C8E51;
+$success-teal: #008670;
+$deep-blue: #002E5C;
+
+$light-gray: #efefef;
+$medium-gray: #ccc;
+$border-gray: #c1c1c1;
+$border-light-gray: #c7c7c7;
+$shadow-gray: #8e8d8d;
+
+$error-red: #d11919;
+$error-orange: #FF4532;
+
+$shadow-black: rgba(0, 0, 0, 0.14);
+$shadow-black-light: rgba(0,0,0,0.2%);
+$shadow-green: rgba(23, 155, 126, 0.28);
+$shadow-green-light: rgba(23, 155, 126, 0.22);

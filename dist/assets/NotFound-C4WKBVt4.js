@@ -1,0 +1,1 @@
+import{u as e,j as o,N as t}from"./index-b1A1Jw3X.js";const a=()=>{const{t:s}=e();return o.jsxs("div",{className:"not-found",children:[o.jsx("img",{src:"/images/404.webp",alt:""}),o.jsx("p",{children:s("The page you are looking for does not exist.")}),o.jsx(t,{to:"/",className:"common-btn",children:s("Go to Home")})]})};export{a as default};

@@ -1,0 +1,1 @@
+import{u as n,j as e}from"./index-b1A1Jw3X.js";const t=()=>{const{t:s}=n();return e.jsx(e.Fragment,{children:e.jsx("div",{className:"home-banner",children:e.jsx("h1",{children:"banner Section"})})})};export{t as default};
